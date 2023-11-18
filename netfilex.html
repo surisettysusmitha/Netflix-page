@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 2em;
+            color: #e50914;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 50px 20px;
+        }
+
+        .banner {
+            height: 400px;
+            background-image: url('stranger_things_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .banner h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .categories {
+            margin-top: 30px;
+        }
+
+        .category {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>TV Shows</li>
+                <li>Movies</li>
+                <li>Latest</li>
+                <li>My List</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h1>Stranger Things</h1>
+            <p>Something is stranger than usual...</p>
+            <div class="buttons">
+                <button class="play">Play</button>
+                <button class="info">More Info</button>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Popular Categories</h2>
+            <div class="category">Action</div>
+            <div class="category">Comedy</div>
+            <div class="category">Drama</div>
+            <div class="category">Sci-Fi</div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
